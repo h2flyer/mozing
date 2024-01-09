@@ -41,6 +41,7 @@
  * Table of Contents End
  * ------------------------------------------------ */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
 :root {
   --_size: 2rem;
@@ -52,27 +53,27 @@
   --_animspeed-slow: 0.6s;
   --_animbezier: cubic-bezier(0.23, 0.65, 0.74, 1.09);
   /* light color scheme */
-  --base--light: #e1e1e6;
-  --base-inner--light: #d5d5e0;
-  --accent--light: #4d26b3;
+  --base--light: #e9e6ff;
+  --base-inner--light: #e9e6ff;
+  --accent--light: #ee3a78;
   --accent-rgb--light: 77, 38, 179;
   --secondary--light: #ee3a78;
   --deviders--light: #8a8793;
   --strokes--light: #b3b3c4;
   --hover-fill--light: #ffffff;
   --transparent-bg--light: rgba(9, 5, 22, 0.9);
-  --t-bright--light: #111111;
-  --t-default--light: #2b2b2b;
+  --t-bright--light: #18093d;
+  --t-default--light: #18093d;
   --t-muted--light: #4c4c4c;
   --t-muted-rgb--light: 76, 76, 76;
   --t-placeholders--light: #7b7a82;
-  --t-opp-bright--light: #ffffff;
-  --t-opp-default--light: #f2f2f2;
+  --t-opp-bright--light: #e44141;
+  --t-opp-default--light: #ffd402;
   --t-opp-muted--light: #c2bfd1;
   /* dark color scheme */
-  --base--dark: #090516;
-  --base-inner--dark: #212327;
-  --accent--dark: #8144e5;
+  --base--dark: #18093d;
+  --base-inner--dark: #18093d;
+  --accent--dark: #ee3a78;
   --accent-rgb--dark: 107, 87, 255;
   --secondary--dark: #ee3a78;
   --deviders--dark: #3a3745;
@@ -80,7 +81,7 @@
   --hover-fill--dark: #262235;
   --transparent-bg--dark: rgba(9, 5, 22, 0.3);
   --t-bright--dark: #ffffff;
-  --t-default--dark: #f2f2f2;
+  --t-default--dark: #e9e6ff;
   --t-muted--dark: #c2bfd1;
   --t-muted-rgb--dark: 194, 191, 209;
   --t-placeholders--dark: #838093;
@@ -188,7 +189,7 @@
 /* Template Backgrounds Start */
 /* ------------------------------------------------*/
 .media-image-1 {
-  background-image: url(/img/swiper/home-1.png);
+  background-image: url(/img/swiper/home1.png);
 }
 
 .media-image-3 {
@@ -226,7 +227,7 @@
 /* Fonts Start */
 /* ------------------------------------------------*/
 /* Inter font */
-/* Oswald font */
+/* Space Grotesk font */
 /* ------------------------------------------------*/
 /* Fonts End */
 /* ------------------------------------------------*/
@@ -756,7 +757,7 @@ body.loaded .top-controls {
 }
 
 h1 {
-  font: normal 500 4.6rem/1.08 "Oswald", sans-serif;
+  font: normal 500 3.6rem/1.08 "Oswald", sans-serif;
   text-transform: uppercase;
   color: var(--t-bright);
 }
@@ -889,7 +890,7 @@ h1 .colored {
 
 .numblock__number {
   display: block;
-  font: normal 400 3rem/1.08 "Oswald", sans-serif;
+  font: normal 400 3rem/1.08 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-bright);
 }
@@ -929,7 +930,7 @@ h1 .colored {
 }
 
 h2 {
-  font: normal 500 4rem/1.1 "Oswald", sans-serif;
+  font: normal 500 4rem/1.1 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-bright);
 }
@@ -985,7 +986,7 @@ h2 .colored {
 }
 
 h3 {
-  font: normal 500 3.6rem/1.14 "Oswald", sans-serif;
+  font: normal 500 3.6rem/1.14 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-bright);
 }
@@ -1018,7 +1019,7 @@ h3 .colored {
 }
 
 h4 {
-  font: normal 500 3.6rem/1.2 "Oswald", sans-serif;
+  font: normal 500 3.6rem/1.2 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-bright);
 }
@@ -1027,14 +1028,14 @@ h4 .colored {
 }
 
 h5 {
-  font: normal 500 3rem/1.2 "Oswald", sans-serif;
+  font: normal 500 3rem/1.2 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-default);
 }
 h5 small {
   display: block;
   margin-top: 0.3rem;
-  font: normal 400 1.6rem/1.2 "Oswald", sans-serif;
+  font: normal 400 1.6rem/1.2 "Space Grotesk", sans-serif;
   letter-spacing: 0.04rem;
   color: var(--accent);
 }
@@ -1043,7 +1044,7 @@ h5 .colored {
 }
 
 h6 {
-  font: normal 500 2.6rem/1.2 "Oswald", sans-serif;
+  font: normal 500 2.6rem/1.2 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-default);
 }
@@ -1076,7 +1077,7 @@ p.small a {
 }
 
 .tools {
-  font: normal 500 3rem/1.2 "Oswald", sans-serif;
+  font: normal 500 3rem/1.2 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-default);
 }
@@ -1131,7 +1132,7 @@ p.small a {
 }
 
 .popup-title__title {
-  font: normal 500 3.6rem/1.14 "Oswald", sans-serif;
+  font: normal 500 3.6rem/1.14 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-per-bright-light);
 }
@@ -1201,14 +1202,19 @@ p.small a {
           user-select: none;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+          
+          
 }
 
 .btn-default {
   height: 5rem;
+
   padding: 0 2rem;
   -moz-border-radius: 2.5rem;
        border-radius: 2.5rem;
-  font: normal 400 1.6rem/5rem "Inter", sans-serif;
+  font: normal 400 1.6rem/5rem "Space Grotesk", sans-serif;
+  
+         
 }
 .btn-default i, .btn-default span {
   position: relative;
@@ -1225,6 +1231,8 @@ p.small a {
     -moz-border-radius: 2.7rem;
          border-radius: 2.7rem;
     font-size: 1.8rem;
+    box-shadow: -4px 4px 0px rgb(9, 5, 22);
+  margin-left: 10px;
   }
   .btn-default i {
     font-size: 2rem;
@@ -1238,6 +1246,8 @@ p.small a {
     -moz-border-radius: 3rem;
          border-radius: 3rem;
     font-size: 2rem;
+    box-shadow: -4px 4px 0px rgb(9, 5, 22);
+  margin-left: 10px;
   }
   .btn-default i {
     font-size: 2.2rem;
@@ -1248,12 +1258,14 @@ p.small a {
   display: block;
   padding-bottom: 2.6rem;
   margin-bottom: 2.6rem;
-  border-bottom: 1px solid rgba(var(--accent-rgb), 0.2);
+  border-bottom: 2px solid rgba(var(--accent-rgb), 0.2);
+  
 }
 .navigation li:last-of-type {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
+  
 }
 @media only screen and (min-width: 1200px) {
   .navigation li {
@@ -1269,7 +1281,7 @@ p.small a {
   -moz-border-radius: 0;
        border-radius: 0;
   border: none;
-  font: normal 400 3rem/1.08 "Oswald", sans-serif;
+  font: normal 400 3rem/1.08 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-bright);
 }
@@ -1284,11 +1296,14 @@ p.small a {
     padding: 0 2rem;
     -moz-border-radius: 2.5rem;
          border-radius: 2.5rem;
-    font: normal 400 1.6rem/5rem "Inter", sans-serif;
+    font: normal 400 1.6rem/5rem "Space Grotesk", sans-serif;
     text-transform: none;
-    border: 1px solid var(--t-default);
-    background-color: transparent;
+    border: 2px solid var(--t-default);
+    background-color: #ffd402;
     color: var(--t-default);
+    box-shadow: -4px 4px 0px rgb(9, 5, 22);
+  margin-left: 10px;
+   
   }
   .btn-navigation i, .btn-navigation span {
     position: relative;
@@ -1330,6 +1345,8 @@ p.small a {
   height: 5rem;
   -moz-border-radius: 50%;
        border-radius: 50%;
+       box-shadow: -2px 4px 0px rgb(9, 5, 22);
+         
 }
 .btn-round i {
   position: relative;
@@ -1404,7 +1421,8 @@ p.small a {
     padding: 0 2rem;
     -moz-border-radius: 2.5rem;
          border-radius: 2.5rem;
-    font: normal 400 1.6rem/5rem "Inter", sans-serif;
+    font: normal 400 1.6rem/5rem "Space Grotesk", sans-serif;
+    
   }
   .btn-round-mobile i {
     display: none;
@@ -1452,7 +1470,7 @@ p.small a {
 .cta__caption {
   display: block;
   margin-right: 2rem;
-  font: normal 400 3.4rem/0.9 "Oswald", sans-serif;
+  font: normal 400 3.4rem/0.9 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-default);
 }
@@ -1595,15 +1613,17 @@ p.small a {
 }
 
 .btn-outline-per {
-  border: 1px solid var(--t-per-default-light);
+  border: 2px solid var(--t-per-default-light);
   background-color: transparent;
   color: var(--t-per-default-light);
 }
 
 .btn-filled {
-  border: none;
+  border: 2px solid;
   background-color: var(--secondary);
   color: var(--t-per-bright-dark);
+  box-shadow: -2px 4px 0px rgb(9, 5, 22);
+         
 }
 
 .btn-muted {
@@ -1645,6 +1665,7 @@ p.small a {
     -moz-transition: color 0.3s 0s, background-color 0s 0s, border 0s 0s, transform 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: color 0.3s 0s, background-color 0s 0s, border 0s 0s, transform 0.3s ease-in-out;
     transition: color 0.3s 0s, background-color 0s 0s, border 0s 0s, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+    
   }
   .hover-anim em {
     position: absolute;
@@ -1660,6 +1681,7 @@ p.small a {
        -moz-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+            
   }
   .no-touch .hover-anim:hover {
     -webkit-transition: color 0.3s 0s, background-color 0.3s 0.2s, border 0.3s 0.1s, -webkit-transform 0.3s ease-in-out;
@@ -1679,17 +1701,23 @@ p.small a {
     background-color: var(--secondary);
   }
   .no-touch .hover-secondary:hover {
-    border: 1px solid var(--secondary);
+    border: 2px solid #130e28;
     color: var(--t-opp-bright--dark);
     background-color: var(--secondary);
+    box-shadow: -6px 6px 0px rgb(9, 5, 22);
+    transition: 0.3s ease-in-out;
+    
   }
   .hover-accent em {
     background-color: var(--accent);
+    
   }
   .no-touch .hover-accent:hover {
-    border: none;
+    border: 2px solid #130e28;
     color: var(--t-opp-bright--light);
     background-color: var(--accent);
+    box-shadow: -6px 6px 0px rgb(9, 5, 22);
+    transition: 0.3s ease-in-out;
   }
   .hover-muted em {
     background-color: var(--hover-fill);
@@ -1853,7 +1881,7 @@ form textarea:required:valid {
 }
 
 .reply-group__title {
-  font: normal 500 2.6rem/1.2 "Oswald", sans-serif;
+  font: normal 500 2.6rem/1.2 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-default);
   margin-bottom: 0.4rem;
@@ -2354,7 +2382,7 @@ form textarea:required:valid {
 }
 .media__countdown #countdown {
   position: relative;
-  font: normal 500 4.6rem/1.08 "Oswald", sans-serif;
+  font: normal 500 4.6rem/1.08 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--accent);
 }
@@ -2422,7 +2450,7 @@ form textarea:required:valid {
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
   height: 5rem;
   bottom: 2rem;
-  font: normal 400 3.4rem/0.9 "Oswald", sans-serif;
+  font: normal 400 3.4rem/0.9 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-per-bright-light);
 }
@@ -2914,7 +2942,7 @@ form textarea:required:valid {
   position: absolute;
   top: 0;
   left: 0;
-  font: normal 500 3rem/9rem "Oswald", sans-serif;
+  font: normal 500 3rem/9rem "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-default);
   height: 9rem;
@@ -2940,7 +2968,7 @@ form textarea:required:valid {
   position: absolute;
   top: 0;
   right: 0;
-  font: normal 500 3rem/9rem "Oswald", sans-serif;
+  font: normal 500 3rem/9rem "Space Grotesk", sans-serif;
   text-transform: uppercase;
   font-variant-numeric: lining-nums;
   color: var(--t-default);
@@ -2982,7 +3010,7 @@ form textarea:required:valid {
 .accordion__title {
   position: relative;
   display: block;
-  font: normal 500 3rem/1.2 "Oswald", sans-serif;
+  font: normal 500 3rem/1.2 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-default);
   padding: 2.7rem 0;
@@ -3268,7 +3296,7 @@ form textarea:required:valid {
   padding: 2.2rem;
 }
 .pswp__caption__center h5 {
-  font: normal 500 3rem/1.2 "Oswald", sans-serif;
+  font: normal 500 3rem/1.2 "Space Grotesk", sans-serif;
   text-transform: uppercase;
   color: var(--t-per-bright-light);
   margin-bottom: 1.4rem;
@@ -3276,7 +3304,7 @@ form textarea:required:valid {
 .pswp__caption__center h5 small {
   display: block;
   margin-top: 0.3rem;
-  font: normal 400 1.6rem/1.2 "Oswald", sans-serif;
+  font: normal 400 1.6rem/1.2 "Space Grotesk", sans-serif;
   letter-spacing: 0.04rem;
   color: var(--t-per-default-light);
 }
@@ -3286,7 +3314,7 @@ form textarea:required:valid {
 }
 
 .pswp__counter {
-  font: normal 400 1.8rem/44px "Oswald", sans-serif;
+  font: normal 400 1.8rem/44px "Space Grotesk", sans-serif;
   color: var(--t-per-default-light);
 }
 
